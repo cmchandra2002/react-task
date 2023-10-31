@@ -1,0 +1,65 @@
+/* Signup Form Container */
+h1 {
+  margin-left: 45%;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Select Styles */
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.text-input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Checkbox Styles */
+.checkbox-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-input input {
+  margin-right: 10px;
+}
+
+/* Error Message Styles */
+.error {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

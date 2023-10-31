@@ -1,0 +1,42 @@
+.side-nav {
+    position: fixed;
+    /* Fix the sidebar to the left of the page */
+    top: 0;
+    /* Position the sidebar at the top of the page */
+    left: 0;
+    /* Position the sidebar at the left of the page */
+    width: 100px;
+    /* Set the width of the sidebar */
+    height: 100%;
+    /* Set the height of the sidebar */
+    background-color: #fff;
+    /* Set the background color of the sidebar */
+    border: 1px solid #ccc;
+    /* Add a border to the sidebar */
+}
+
+.side-nav ul {
+    list-style-type: none;
+    /* Remove the default bullet points */
+    padding: 0;
+    /* Remove the default padding */
+}
+
+.side-nav li {
+    padding: 10px;
+    /* Add padding to each list item */
+    cursor: pointer;
+    /* Make each list item look like a button */
+}
+
+.side-nav li:hover {
+    background-color: #ccc;
+    /* Change the background color of the list item when it is hovered over */
+}
+
+.side-nav li a {
+    color: #000;
+    /* Set the text color of the links in the list items */
+    text-decoration: none;
+    /* Remove the default underline from the links */
+}

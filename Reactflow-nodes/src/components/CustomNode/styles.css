@@ -1,0 +1,29 @@
+.card {
+    background: #2d3748 !important;
+    min-width: 150px;
+    max-width: 200px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: linear-gradient(to right, #b0785d, #2e3748);
+    text-align: center;
+    color: white;
+    height: 10px;
+}
+
+.buttons {
+    margin: 5px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.card-content {
+    color: white;
+}
+
+.buttons button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
